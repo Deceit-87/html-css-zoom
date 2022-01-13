@@ -1,0 +1,159 @@
+*{
+    margin: 0;
+    padding:0;
+    box-sizing:border-box;
+}
+/* .debug{
+    border: 2px dashed red;
+} */
+.flex{
+    display:flex;
+}
+ .green {
+     color: #4CC80B;
+ }
+
+body{
+    display: flex;
+    flex-direction: column;
+    background-color: black;
+    height: 100vh ;
+}
+header{
+justify-content: flex-end;
+column-gap: 10px;
+   
+
+}
+ footer{
+     justify-content: space-between;
+     align-items : center;
+     background-color:#222222;
+     flex-direction: row;
+ }
+
+header,footer{
+    height: 80px;
+    
+}
+
+main{
+ justify-content: center;
+
+padding: 5px;
+flex-grow: 1;
+}
+
+/* BUTTON TOP RIGHT  */
+
+header .button{
+    color: white;
+   
+}
+ header .button i{
+    background-color: #4A4A4A;
+    padding: 5px;
+    border-radius: 5px;
+ }
+
+
+
+
+ /* MAIN */
+
+.room-wrapper{
+    
+    justify-content: center;
+    flex-grow: 1;
+   flex-wrap: wrap;
+   column-gap: 1px;
+   row-gap: 1px;
+}
+.pinco-palla{
+    padding: 4px;
+    color: white;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    background-color: rgba(0, 0, 0, 0.39) ;
+    
+}
+
+
+*img{
+width: 100%;
+}
+
+
+.cam-wrapper{
+    position: relative;
+    max-width: 256px;
+    max-height: 150px;
+}
+/* FOOTER  */
+
+
+
+
+footer {
+    padding-right: 0;
+}
+footer ul{
+    list-style: none;
+    display: contents;
+}
+.user-option li i , .room-option li i{
+    display: block;
+text-align: center;
+padding-bottom: 5px;
+font-size: 30px;
+}
+ 
+/* SE AVESSI VOLUTO USARE UN AFTER ? */
+
+  .user-option .chevron i , .room-option .chevron i {
+    font-size: 12px;
+   padding: 30px 5px 0 5px;
+ 
+}
+.user-option{
+    padding-left: 10px;
+}
+.user-option , .room-option {
+    justify-content:space-around ;
+    column-gap: 10px;
+    color: white;
+    font-size: 12px;
+    text-align: center;
+}
+
+.endcall-option {
+    justify-content: space-around;
+    align-items: center;
+    color: red;
+    font-size: 12;
+    background-color: #4A4A4A;
+    width: 120px;
+    height: 80px;
+}
+
+.endcall-bkg {
+    position: absolute;
+    right: 0px;
+    top:0px;
+    bottom: 0px;
+    width: 120px;
+    
+    z-index: 1;
+}
+
+
+
+
+
+
+/* PROBLEMI RISCONTRATI 
+
+RESIZE IMAGE 
+CHEVRON footer
+LIMITARE IL ROOM-WRAPPER IN HEIGT */
