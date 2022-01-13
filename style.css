@@ -137,15 +137,6 @@ font-size: 30px;
     height: 80px;
 }
 
-.endcall-bkg {
-    position: absolute;
-    right: 0px;
-    top:0px;
-    bottom: 0px;
-    width: 120px;
-    
-    z-index: 1;
-}
 
 
 
